@@ -1,8 +1,8 @@
 import 'package:advance_pdf_viewer/advance_pdf_viewer.dart';
 import 'package:flutter/material.dart';
 import 'package:flutter_secure_storage/flutter_secure_storage.dart';
-import 'package:oowoo/Conrollers/pdf_or_document_Provider.dart';
-import 'package:oowoo/Conrollers/studentProvider.dart';
+import 'package:oowoo/Controllers/pdf_or_document_Provider.dart';
+import 'package:oowoo/Controllers/studentProvider.dart';
 import 'package:oowoo/Services/UtilityService.dart';
 import 'package:oowoo/Utilities/Widgets.dart';
 import 'package:oowoo/Utilities/animatingCircle.dart';

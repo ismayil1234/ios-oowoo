@@ -1,14 +1,14 @@
 import 'package:flutter/material.dart';
 import 'package:flutter_secure_storage/flutter_secure_storage.dart';
 import 'package:flutter_windowmanager/flutter_windowmanager.dart';
-import 'package:oowoo/Conrollers/studentProvider.dart';
+import 'package:oowoo/Controllers/studentProvider.dart';
 import 'package:oowoo/Services/UtilityService.dart';
 import 'package:oowoo/Utilities/Widgets.dart';
 import 'package:oowoo/Utilities/animatingCircle.dart';
 import 'package:oowoo/constants.dart';
-import 'package:oowoo/view/StateLess/playVideo.dart';
+// import 'package:oowoo/view/StateLess/playVideo.dart';
 // import 'file:///E:/LeapProjects/oowoo/lib/view/playVideo.dart';
-import 'package:oowoo/view/playYoutubeVideo.dart';
+// import 'package:oowoo/view/playYoutubeVideo.dart';
 import 'package:provider/provider.dart';
 import 'package:video_player/video_player.dart';
 import 'package:youtube_player_flutter/youtube_player_flutter.dart';
@@ -296,7 +296,7 @@ class _ChapterSubCategoryState extends State<ChapterSubCategory> {
                               }
                             })
                         : SizedBox(),
-                    isPressed ? PlayYoutubeVideo(url: videoURL) : SizedBox(),
+                    // isPressed ? PlayYoutubeVideo(url: videoURL) : SizedBox(),
                     SizedBox(height: (20 / height) * height),
                   ],
                 ),

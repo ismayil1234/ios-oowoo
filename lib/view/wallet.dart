@@ -1,6 +1,6 @@
 import 'dart:ui';
 import 'package:flutter/material.dart';
-import 'package:oowoo/Conrollers/studentProvider.dart';
+import 'package:oowoo/Controllers/studentProvider.dart';
 import 'package:oowoo/Services/UtilityService.dart';
 import 'package:oowoo/Utilities/animatingCircle.dart';
 import 'package:oowoo/constants.dart';

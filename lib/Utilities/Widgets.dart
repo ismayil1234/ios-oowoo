@@ -1,8 +1,8 @@
 import 'dart:ui';
 
 import 'package:flutter/material.dart';
-import 'package:oowoo/Conrollers/registration_Provider.dart';
-import 'package:oowoo/Conrollers/studentProvider.dart';
+import 'package:oowoo/Controllers/registration_Provider.dart';
+import 'package:oowoo/Controllers/studentProvider.dart';
 import 'package:oowoo/Services/UtilityService.dart';
 import 'package:oowoo/constants.dart';
 import 'package:provider/provider.dart';

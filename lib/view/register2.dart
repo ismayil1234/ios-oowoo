@@ -7,9 +7,10 @@ import 'package:flutter_secure_storage/flutter_secure_storage.dart';
 import 'package:image_picker/image_picker.dart';
 import 'package:jiffy/jiffy.dart';
 import 'package:loading_overlay/loading_overlay.dart';
-import 'package:oowoo/Conrollers/registration_Provider.dart';
-import 'package:oowoo/Conrollers/studentProvider.dart';
+import 'package:oowoo/Controllers/registration_Provider.dart';
+import 'package:oowoo/Controllers/studentProvider.dart';
 import 'package:oowoo/Model/Register_Model.dart';
+import 'package:oowoo/Services/UtilityService.dart';
 import 'package:oowoo/Services/registration_Service.dart';
 import 'package:oowoo/Utilities/Widgets.dart';
 import 'package:oowoo/Utilities/animatingCircle.dart';
@@ -25,6 +26,7 @@ class Register2 extends StatefulWidget {
 class _Register2State extends State<Register2> {
   RegisterModel registerModel = RegisterModel();
   RegistrationService registerService = RegistrationService();
+  UtilityService utilityService = UtilityService();
   final formKey = GlobalKey<FormState>();
   genderEnum genderSelected;
   final ImagePicker picker = ImagePicker();

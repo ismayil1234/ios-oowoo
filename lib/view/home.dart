@@ -4,8 +4,8 @@
 
 import 'package:flutter/material.dart';
 import 'package:flutter_secure_storage/flutter_secure_storage.dart';
-import 'package:oowoo/Conrollers/registration_Provider.dart';
-import 'package:oowoo/Conrollers/studentProvider.dart';
+import 'package:oowoo/Controllers/registration_Provider.dart';
+import 'package:oowoo/Controllers/studentProvider.dart';
 import 'package:oowoo/Services/UtilityService.dart';
 import 'package:oowoo/Utilities/Widgets.dart';
 import 'package:oowoo/Utilities/animatingCircle.dart';

@@ -3,7 +3,7 @@ import 'dart:io';
 
 import 'package:dio/dio.dart';
 import 'package:flutter/material.dart';
-import 'package:oowoo/Conrollers/pdf_or_document_Provider.dart';
+import 'package:oowoo/Controllers/pdf_or_document_Provider.dart';
 import 'package:path_provider/path_provider.dart';
 import 'package:provider/provider.dart';
 
